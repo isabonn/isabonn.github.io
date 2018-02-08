@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import logo from 'assets/images/logo.svg';
+import Greetings from 'greetings';
+import './Root.css';
 
-class App extends Component {
+console.log(Greetings);
+
+class Root extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img  className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to ISA homepage</h1>
         </header>
       </div>
@@ -15,4 +18,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Root;
